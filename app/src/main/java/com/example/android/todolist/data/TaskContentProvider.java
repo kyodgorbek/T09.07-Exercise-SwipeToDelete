@@ -185,7 +185,7 @@ public class TaskContentProvider extends ContentProvider {
 
         // Return the number of tasks deleted
         return tasksDeleted;
-    }
+    } 
 
 
     public int update(@NonNull Uri uri, ContentValues values, String selection,
